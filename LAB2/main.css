@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
     text-align: center;
+    font-size: 14px;
 }
 
 h1 {
@@ -21,9 +22,7 @@ form {
 }
 
 label {
-    display: block;
     margin: 10px 0;
-    font-size: 16px;
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="date"], select {
@@ -31,7 +30,6 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
     padding: 8px;
     margin-top: 4px;
     border: 1px solid #ccc;
-    font-size: 14px;
     box-sizing: border-box;
 }
 
