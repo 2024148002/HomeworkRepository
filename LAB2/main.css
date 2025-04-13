@@ -1,0 +1,64 @@
+/* main.css - LAB2 Requirement (50점) */
+
+body {
+    background-color: #f4f4f4; /* 1. background-color */
+    font-family: Arial, sans-serif; /* 7. font-family */
+    color: #333; /* 8. color */
+    text-align: center; /* 2. text-align */
+    margin: 0; /* 4. margin */
+    padding: 0; /* 3. padding */
+}
+
+h1 {
+    font-size: 24px; /* 6. font-size */
+    margin: 20px;
+}
+
+form {
+    border: 2px solid #999; /* 5. border */
+    width: 400px; /* 9. width */
+    height: auto; /* 10. height */
+    margin: 20px auto; /* 4. margin */
+    padding: 20px; /* 3. padding */
+    background-color: white; /* 1. background-color again */
+    text-align: left;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="date"], select {
+    width: 100%;
+    padding: 8px; /* 3. padding */
+    margin-top: 4px; /* 4. margin */
+    border: 1px solid #ccc; /* 5. border */
+    font-size: 14px; /* 6. font-size */
+    box-sizing: border-box;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 10px 20px; /* 3. padding */
+    margin: 10px 5px; /* 4. margin */
+    border: none; /* 5. border */
+    font-size: 14px; /* 6. font-size */
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px; /* 9. width */
+    height: 40px; /* 10. height */
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    background-color: lightgreen; /* 1. background-color */
+    color: black; /* 8. color */
+}
+
+input[type="reset"] {
+    background-color: red; /* 1. background-color */
+    color: white; /* 8. color */
+}
+
