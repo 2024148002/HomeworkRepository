@@ -22,7 +22,7 @@ form {
 }
 
 label {
-    margin: 10px 0;
+    margin: 12px 0;
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="date"], select {
